@@ -1,0 +1,21 @@
+﻿<Window x:Class="Insta_Downloader.Views.NotificationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Insta_Downloader.Views"
+        mc:Ignorable="d"
+       Height="150" Width="400" Background="#FF2E2E2E" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterOwner" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="notification" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Foreground="White" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="OkButton" Content="OK" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Row="2" Width="50" BorderBrush="Azure" Background="#FF12B5F1" FontWeight="SemiBold"/>
+
+    </Grid>
+</Window>
